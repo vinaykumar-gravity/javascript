@@ -1,0 +1,45 @@
+body {
+    
+    background-color: gray;
+}
+
+.carousel {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.pot {
+    display: none;
+    animation: name 0.5s;
+}
+
+.presentItem{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+}
+
+.actions {
+    width: 580px;
+    display: flex;
+    padding: 10px;
+    position: absolute;
+    top: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.actions .button {
+      margin: 10px;
+}
+
+@keyframes name {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
